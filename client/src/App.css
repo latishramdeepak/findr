@@ -1,0 +1,164 @@
+
+body{
+  background-color:black;
+  color:white;
+  overflow-x: hidden;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.signup-form{
+  background-color: white;
+  box-shadow:2px 2px  white;
+  border-radius:5px;
+  text-align:center;
+  color:black;
+  padding:35px;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+/*
+.signup-form{
+  padding:35px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+*/
+
+.login-form{
+  background-color: white;
+  box-shadow:2px 2px  white;
+  border-radius:5px;
+  text-align:center;
+  color:black;
+  padding:60px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:100px;
+  padding-bottom:100px;
+
+}
+
+
+.area{
+  height:250px!important;
+}
+
+
+.title-1 img{
+  width:130px!important;
+  height:auto!important;
+}
+
+.roow{
+  display:flex;
+  margin-top:40px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+  width:100%;
+}
+
+.cool-1{
+  flex-basis:50%;
+ min-width:300px;
+  padding:20px;
+
+}
+
+
+.image-gallery{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+
+.image-gallery img{
+  width:250px;
+  margin:10px;
+  border-radius:8px;
+
+}
+
+
+
+.sliderr{
+  margin:30px 0;
+}
+
+
+/*.top-banner{
+   width:100%;
+   height:100%;
+   background:url('./images/newhomepage.jpg') no-repeat center;
+   background-size:cover;
+   z-index:1000;
+}
+
+*/
+
+.home-page-pic{
+  position:relative;
+  
+}
+
+.heading{
+  position:absolute;
+
+}
+
+.heading{
+  font-size: large;
+}
+
+.service-heading{
+  text-align:center;
+  margin:15px 0;
+}
+
+.message-heading{
+   margin:200px;
+}
